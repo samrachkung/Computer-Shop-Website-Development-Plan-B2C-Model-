@@ -1,4 +1,4 @@
-# Computer-Shop-Website-Development-Plan-B2C-Model-
+# 🖥️ Zin2bczin Computer Shop – Website Development Plan (B2C Model)
 
 ---
 
@@ -20,7 +20,7 @@
 - ✔ **Product Catalog** (PC components, laptops, accessories)
 - ✔ **Advanced Filters** (by category, price, brand, specs)
 - ✔ **Shopping Cart & Wishlist**
-- ✔ **Checkout with Payment Gateway (Stripe) & Cash on Delivery**
+- ✔ **Checkout with Payment Gateway (ABA PayWay / Bakong) & Cash on Delivery**
 - ✔ **User Accounts (Login/Register)**
 - ✔ **Admin Dashboard** (Manage products, orders, users, categories)
 - ✔ **Order Tracking & History**
@@ -35,7 +35,7 @@
 - ✅ Product Management (CRUD operations for admin)
 - ✅ Category & Brand Filters (CPU, GPU, RAM, Storage, etc.)
 - ✅ Shopping Cart & Wishlist
-- ✅ Checkout System (Stripe + Cash on Delivery)
+- ✅ Checkout System (ABA PayWay + Bakong + Cash on Delivery)
 - ✅ Order Tracking & History
 - ✅ Admin Panel (Role-based access control)
 - ✅ Product Comparison Tool (Compare specs side-by-side)
@@ -123,13 +123,14 @@
 ## 💳 7. Payment Integration
 
 ### Payment Methods:
-1. **Stripe** (Credit/Debit Cards)
-2. **Cash on Delivery** (Pay when product arrives)
+1. **ABA PayWay** (Visa, MasterCard, Local Bank Payments)
+2. **Bakong** (Mobile Wallet Payment in Cambodia)
+3. **Cash on Delivery** (Pay when product arrives)
 
 ### Steps:
-- Set up Stripe API for secure payments
-- Handle order confirmation webhooks
-- Implement Cash on Delivery option
+- Set up **ABA PayWay API** for secure payments
+- Integrate **Bakong Gateway** (via Cambodian NBC guidelines)
+- Implement **Cash on Delivery** option
 
 ---
 
@@ -155,7 +156,7 @@
 | Frontend    | Vercel / Netlify |
 | Backend     | Shared Hosting (cPanel) |
 | Database    | MySQL via cPanel |
-| Domain      | `pnk-computers.pk` |
+| Domain      | Custom domain (e.g., `zin2bczin.com`) |
 | SSL         | Let’s Encrypt (Free HTTPS) |
 
 ---
@@ -194,10 +195,11 @@
 | Frontend         | HTML/CSS/JS or React.js                |
 | Backend          | Laravel (PHP Framework)                |
 | Auth             | JWT-based Authentication               |
-| Payments         | Stripe, COD                            |
+| Payments         | ABA PayWay, Bakong, COD                |
 | Database         | MySQL                                  |
 | Dev Tools        | Figma (Design), Postman (API Test), PHPUnit |
 | Hosting          | Vercel/Netlify (Frontend), cPanel (Backend) |
 | Monitoring       | Google Analytics, LogRocket, Sentry    |
 
 ---
+
