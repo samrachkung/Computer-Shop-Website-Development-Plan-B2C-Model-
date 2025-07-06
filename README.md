@@ -10,11 +10,12 @@
 ### Target Audience:
 - Gamers, tech enthusiasts, students, and professionals (age 15–40).
 
-### Competitors:
-- Daraz (Electronics Section)
-- GT Store
-- Czone
-- Pakdukaan
+### Competitors (Cambodia):
+- **iOne Cambodia**  
+- **NeakMeas Computer**  
+- **Chantra Computer**  
+- **GGear Group**  
+- **Panda Shop Cambodia**
 
 ### Core Features:
 - ✔ **Product Catalog** (PC components, laptops, accessories)
